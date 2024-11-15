@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceSearch AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+      <!-- Header Section -->
+      <header>
+        <div class="container">
+            <h1>FaceSearch AI</h1>
+            <p>Leading the Future of AI-Powered Facial Recognition Technology</p>
+            <a href="#features" class="cta-button">Explore Features</a>
+            <a href="#download" class="cta-button secondary">Download Now</a>
+        </div>
+    </header>
+         <!-- Search Bar Section -->
+    <div class="search-bar-container">
+        <input type="text" placeholder="Search faces, features, or solutions..." id="ai-search-input">
+        <button class="search-button">Search</button>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to FaceSearch AI</h2>
+            <p>FaceSearch AI harnesses the power of artificial intelligence to provide fast, secure, and accurate facial recognition solutions for individuals and businesses. Experience unparalleled precision and user-friendly design that makes integrating facial recognition into your workflow effortless.</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About FaceSearch AI</h2>
+            <p>FaceSearch AI was designed to revolutionize the way we interact with technology by providing reliable facial recognition for various applications. Our platform offers a seamless, safe, and robust solution powered by state-of-the-art AI algorithms.</p>
+            <p>With a commitment to innovation and data security, FaceSearch AI has quickly become a preferred choice for security, e-commerce, and tech-driven industries.</p>
+            <div class="about-stats">
+                <div>
+                    <h3>99.9%</h3>
+                    <p>Accuracy Rate</p>
+                </div>
+                <div>
+                    <h3>100M+</h3>
+                    <p>Images Processed</p>
+                </div>
+                <div>
+                    <h3>5K+</h3>
+                    <p>Global Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature">
+                <h3>High-Speed Facial Recognition</h3>
+                <p>Identify faces within seconds with cutting-edge AI technology that processes vast amounts of data quickly and accurately.</p>
+            </div>
+            <div class="feature">
+                <h3>Intuitive User Interface</h3>
+                <p>A sleek and modern interface ensures users can navigate and operate the app effortlessly, no matter their experience level.</p>
+            </div>
+            <div class="feature">
+                <h3>Advanced Security & Privacy</h3>
+                <p>Utilizes encryption and secure protocols to protect user data, complying with top industry standards for privacy and security.</p>
+            </div>
+            <div class="feature">
+                <h3>Seamless Payment Integration</h3>
+                <p>Integrated with Stripe for smooth and secure transactions, supporting various payment options to suit all users.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Background Section -->
+    <section id="video-background">
+        <video autoplay muted loop class="background-video">
+            <source src="path/to/your/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay">
+            <div class="scan-animation"></div>
+            <div class="video-content">
+                <h2>Revolutionizing Facial Recognition</h2>
+                <p>Experience the future of AI technology with FaceSearch AI.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stripe Payment Section -->
+    <section id="payment-section">
+        <button id="checkout-button" class="cta-button stripe-button">Pay Securely with Stripe</button>
+        
+        <!-- Payment Methods Info -->
+        <div class="payment-methods">
+            <h3>Available Payment Methods</h3>
+            <ul>
+                <li><span class="icon">💳</span> Credit Cards</li>
+                <li><span class="icon">💳</span> Debit Cards</li>
+                <li><span class="icon">📱</span> Mobile Wallets (Apple Pay, Google Pay)</li>
+                <li><span class="icon">🕒</span> Buy Now, Pay Later</li>
+                <li><span class="icon">🏦</span> Bank Transfers</li>
+                <li><span class="icon">💸</span> Credit Transfers</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FaceSearch AI. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Stripe Payment Integration -->
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="script.js"></script>
+</body>
+</html>
